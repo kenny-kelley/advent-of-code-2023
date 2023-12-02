@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = 'Advent of Code 2023 solutions written in Ruby'
   spec.homepage = 'https://github.com/kenny-kelley/advent-of-code-2023'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
