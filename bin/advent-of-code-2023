@@ -4,7 +4,12 @@
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'advent_of_code_2023'
 
-puts '### Advent of Code 2023 Solutions ###'
-puts "Version: #{AdventOfCode2023::VERSION}"
+puts '################################################################################'
+puts '#                                                                              #'
+puts '#                             Advent of Code 2023                              #'
+puts '#                                                                              #'
+puts '################################################################################'
 puts
-puts '# TODO'
+
+puts '================================================================================'
+AdventOfCode2023::Day01.solve
