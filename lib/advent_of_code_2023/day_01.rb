@@ -7,7 +7,7 @@ module AdventOfCode2023
       puts '### Day 1 ###'
       puts
 
-      input = File.read(File.join(File.dirname(__FILE__), '../../data/day_01/input.txt'))
+      input = File.read(File.join(File.dirname(__FILE__), 'day_01/input.txt'))
 
       puts 'Part One Solution:'
       puts solve_part1(input)
